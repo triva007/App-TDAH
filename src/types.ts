@@ -27,6 +27,13 @@ export interface CalendarEvent {
 }
 
 export interface UserStats {
-  xp: number;
+  xp: number; // Wallet balance
+  totalXp: number; // Total for leveling
   level: number;
+}
+
+export interface Reward {
+  id: string;
+  title: string;
+  cost: number;
 }
